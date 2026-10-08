@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Vexo Store — Premium Tech Accessories",
+    "description": "Premium phone cases, smart watch bands, chargers and laptop sleeves engineered for a perfect fit."
+  },
+  "announcement": {
+    "messages": [
+      "Free shipping on orders over $50",
+      "Use code VEXO10 for 10% off your first order",
+      "30-day hassle-free returns on every device"
+    ]
+  },
+  "nav": {
+    "search": "Search",
+    "searchPlaceholder": "Search cases, bands, chargers…",
+    "searching": "Searching…",
+    "noResults": "No products found for “{query}”",
+    "viewAllResults": "View all results",
+    "account": "Account",
+    "cart": "Cart",
+    "language": "Language",
+    "openMenu": "Open menu",
+    "back": "Back",
+    "viewAll": "View all {name}",
+    "close": "Close",
+    "home": "Home",
+    "catalog": "All products",
+    "contact": "Contact",
+    "browse": "Browse"
+  },
+  "deviceSelector": {
+    "label": "Select Your Device",
+    "title": "Find accessories for your device",
+    "subtitle": "We'll tailor every product grid to what fits your device.",
+    "clear": "Clear selection",
+    "searchPlaceholder": "Search your device…",
+    "noDevices": "No devices match your search",
+    "noMatch": "No exact matches for {device} yet — showing all products.",
+    "showingFor": "Showing products for {device}",
+    "change": "Change"
+  },
+  "categories": {
+    "phoneCases": "Phone Cases",
+    "watchBands": "Watch Bands",
+    "chargers": "Chargers",
+    "laptopSleeves": "Laptop Sleeves",
+    "audio": "Audio",
+    "cables": "Cables"
+  },
+  "home": {
+    "heroEyebrow": "New season · Made to fit",
+    "heroTitleA": "Gear built around",
+    "heroTitleB": "your device",
+    "heroSubtitle": "Premium cases, smart watch bands, chargers and laptop sleeves — engineered for a perfect fit and designed to be seen.",
+    "shopNow": "Shop Now",
+    "selectDevice": "Find my device",
+    "shopByCategory": "Shop by category",
+    "bestsellers": "Bestsellers",
+    "bestsellersSub": "The accessories our customers can't stop buying.",
+    "viewAll": "View all",
+    "reviewsTitle": "Over 100,000 5-Star Reviews",
+    "reviewsSub": "Loved by customers in 60+ countries.",
+    "rating": "4.9 out of 5",
+    "productsUnavailable": "We couldn't load products right now.",
+    "trust": [
+      { "title": "Free shipping", "text": "On orders over $50" },
+      { "title": "30-day returns", "text": "No questions asked" },
+      { "title": "2-year warranty", "text": "On every product" },
+      { "title": "Secure checkout", "text": "Powered by Shopify" }
+    ]
+  },
+  "reviews": [
+    { "name": "Sarah M.", "role": "iPhone 17 Pro owner", "text": "The fit is absolutely perfect and the colors are even better in person. Best case I've ever owned." },
+    { "name": "Daniel K.", "role": "Apple Watch Ultra", "text": "Comfortable all day and the band looks premium. Shipping was lightning fast, too." },
+    { "name": "Layla A.", "role": "MacBook Air 15”", "text": "The laptop sleeve feels luxurious and protects like a tank. I get compliments constantly." },
+    { "name": "Marcus T.", "role": "Galaxy S26 Ultra", "text": "Charger is tiny but fast. Replaced all my bulky bricks with Vexo and never looked back." }
+  ],
+  "product": {
+    "addToCart": "Add to Cart",
+    "adding": "Adding…",
+    "soldOut": "Sold out",
+    "sale": "Sale",
+    "off": "-{percent}% OFF",
+    "compatibility": "Device Compatibility",
+    "color": "Color",
+    "selectedOption": "Selected: {value}",
+    "frequentlyBoughtTogether": "Frequently Bought Together",
+    "thisItem": "This item",
+    "total": "Total",
+    "addSelected": "Add {count} to Cart",
+    "description": "Description",
+    "noImage": "No image",
+    "zoomHint": "Hover to zoom",
+    "perks": [
+      "Free shipping over $50",
+      "30-day returns",
+      "2-year warranty"
+    ],
+    "breadcrumbHome": "Home",
+    "unavailable": "Unavailable",
+    "notFoundTitle": "Product not found",
+    "notFoundText": "This product may have been moved or is no longer available.",
+    "backToShop": "Back to shop"
+  },
+  "collection": {
+    "products": "{count} products",
+    "empty": "No products here yet",
+    "emptyText": "New arrivals are on their way. Check back soon or browse all products.",
+    "loadError": "We couldn't load this collection.",
+    "all": "All products",
+    "searchResults": "Results for “{query}”"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "emptyText": "Looks like you haven't added anything yet.",
+    "continueShopping": "Continue shopping",
+    "subtotal": "Subtotal",
+    "checkout": "Checkout securely",
+    "redirecting": "Redirecting…",
+    "taxNote": "Shipping & taxes calculated at checkout.",
+    "freeShippingAway": "You're {amount} away from free shipping!",
+    "freeShippingUnlocked": "You've unlocked free shipping! 🎉",
+    "remove": "Remove",
+    "increase": "Increase quantity",
+    "decrease": "Decrease quantity",
+    "error": "We couldn't update your cart. Please try again."
+  },
+  "footer": {
+    "shopByDevice": "Shop by Device",
+    "support": "Support",
+    "about": "About Vexo Store",
+    "supportLinks": [
+      { "label": "Contact Us", "href": "/pages/contact" },
+      { "label": "Shipping & Delivery", "href": "/pages/shipping" },
+      { "label": "Returns & Exchanges", "href": "/pages/returns" },
+      { "label": "FAQ", "href": "/pages/faq" },
+      { "label": "Track Your Order", "href": "/pages/track-order" }
+    ],
+    "aboutLinks": [
+      { "label": "Our Story", "href": "/pages/about" },
+      { "label": "Warranty", "href": "/pages/warranty" },
+      { "label": "Customer Reviews", "href": "/pages/reviews" },
+      { "label": "Privacy Policy", "href": "/pages/privacy-policy" },
+      { "label": "Terms of Service", "href": "/pages/terms" }
+    ],
+    "tagline": "Premium accessories for iPhone, Samsung, Pixel and smart watches.",
+    "newsletterTitle": "Join the Vexo list",
+    "newsletterText": "Get 10% off your first order, plus early access to drops.",
+    "newsletterPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "subscribed": "Thanks! Check your inbox.",
+    "invalidEmail": "Please enter a valid email.",
+    "follow": "Follow us",
+    "payments": "We accept",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong. Please try again.",
+    "retry": "Try again",
+    "home": "Go home",
+    "pageNotFound": "Page not found",
+    "pageNotFoundText": "The page you're looking for doesn't exist or has moved."
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "فيكسو ستور — إكسسوارات تقنية فاخرة",
+    "description": "جرابات هواتف وأحزمة ساعات ذكية وشواحن وحقائب لابتوب بمقاس مثالي."
+  },
+  "announcement": {
+    "messages": [
+      "شحن مجاني للطلبات فوق 50$",
+      "استخدم الكود VEXO10 لخصم 10% على طلبك الأول",
+      "إرجاع مجاني خلال 30 يومًا على جميع الأجهزة"
+    ]
+  },
+  "nav": {
+    "search": "بحث",
+    "searchPlaceholder": "ابحث عن جرابات، أحزمة، شواحن…",
+    "searching": "جارٍ البحث…",
+    "noResults": "لا توجد منتجات لـ “{query}”",
+    "viewAllResults": "عرض كل النتائج",
+    "account": "الحساب",
+    "cart": "السلة",
+    "language": "اللغة",
+    "openMenu": "فتح القائمة",
+    "back": "رجوع",
+    "viewAll": "عرض كل {name}",
+    "close": "إغلاق",
+    "home": "الرئيسية",
+    "catalog": "كل المنتجات",
+    "contact": "اتصل بنا",
+    "browse": "تصفح"
+  },
+  "deviceSelector": {
+    "label": "اختر جهازك",
+    "title": "اعثر على إكسسوارات جهازك",
+    "subtitle": "سنعرض لك المنتجات المناسبة لجهازك في كل صفحات المتجر.",
+    "clear": "إزالة الاختيار",
+    "searchPlaceholder": "ابحث عن جهازك…",
+    "noDevices": "لا توجد أجهزة مطابقة",
+    "noMatch": "لا توجد نتائج مطابقة لـ {device} حاليًا — نعرض كل المنتجات.",
+    "showingFor": "عرض المنتجات المناسبة لـ {device}",
+    "change": "تغيير"
+  },
+  "categories": {
+    "phoneCases": "جرابات الهواتف",
+    "watchBands": "أحزمة الساعات",
+    "chargers": "الشواحن",
+    "laptopSleeves": "حقائب اللابتوب",
+    "audio": "الصوتيات",
+    "cables": "الكابلات"
+  },
+  "home": {
+    "heroEyebrow": "موسم جديد · مصمم ليناسبك",
+    "heroTitleA": "إكسسوارات مصممة حول",
+    "heroTitleB": "جهازك",
+    "heroSubtitle": "جرابات فاخرة وأحزمة ساعات ذكية وشواحن وحقائب لابتوب — بمقاس مثالي وتصميم يلفت الأنظار.",
+    "shopNow": "تسوّق الآن",
+    "selectDevice": "ابحث عن جهازي",
+    "shopByCategory": "تسوّق حسب الفئة",
+    "bestsellers": "الأكثر مبيعًا",
+    "bestsellersSub": "الإكسسوارات التي لا يتوقف عملاؤنا عن شرائها.",
+    "viewAll": "عرض الكل",
+    "reviewsTitle": "أكثر من 100,000 تقييم 5 نجوم",
+    "reviewsSub": "محبوب من العملاء في أكثر من 60 دولة.",
+    "rating": "4.9 من 5",
+    "productsUnavailable": "تعذّر تحميل المنتجات حاليًا.",
+    "trust": [
+      { "title": "شحن مجاني", "text": "للطلبات فوق 50$" },
+      { "title": "إرجاع خلال 30 يومًا", "text": "دون أي أسئلة" },
+      { "title": "ضمان لمدة عامين", "text": "على كل المنتجات" },
+      { "title": "دفع آمن", "text": "بواسطة Shopify" }
+    ]
+  },
+  "reviews": [
+    { "name": "سارة م.", "role": "مالكة iPhone 17 Pro", "text": "المقاس مثالي والألوان أجمل في الواقع. أفضل جراب امتلكته." },
+    { "name": "دانيال ك.", "role": "Apple Watch Ultra", "text": "مريح طوال اليوم والحزام يبدو فاخرًا. والشحن كان سريعًا جدًا." },
+    { "name": "ليلى أ.", "role": "MacBook Air 15”", "text": "الحقيبة فاخرة وتحمي الجهاز بقوة. أتلقى الإطراء عليها باستمرار." },
+    { "name": "ماركوس ت.", "role": "Galaxy S26 Ultra", "text": "الشاحن صغير لكنه سريع. استبدلت كل شواحني الكبيرة بفيكسو." }
+  ],
+  "product": {
+    "addToCart": "أضف إلى السلة",
+    "adding": "جارٍ الإضافة…",
+    "soldOut": "نفدت الكمية",
+    "sale": "تخفيض",
+    "off": "خصم {percent}%",
+    "compatibility": "توافق الجهاز",
+    "color": "اللون",
+    "selectedOption": "المحدد: {value}",
+    "frequentlyBoughtTogether": "يُشترى معًا بشكل متكرر",
+    "thisItem": "هذا المنتج",
+    "total": "الإجمالي",
+    "addSelected": "أضف {count} إلى السلة",
+    "description": "الوصف",
+    "noImage": "لا توجد صورة",
+    "zoomHint": "مرّر للتكبير",
+    "perks": [
+      "شحن مجاني فوق 50$",
+      "إرجاع خلال 30 يومًا",
+      "ضمان لمدة عامين"
+    ],
+    "breadcrumbHome": "الرئيسية",
+    "unavailable": "غير متوفر",
+    "notFoundTitle": "المنتج غير موجود",
+    "notFoundText": "ربما تم نقل هذا المنتج أو لم يعد متاحًا.",
+    "backToShop": "العودة للمتجر"
+  },
+  "collection": {
+    "products": "{count} منتج",
+    "empty": "لا توجد منتجات هنا بعد",
+    "emptyText": "منتجات جديدة في الطريق. عد قريبًا أو تصفح كل المنتجات.",
+    "loadError": "تعذّر تحميل هذه المجموعة.",
+    "all": "كل المنتجات",
+    "searchResults": "نتائج “{query}”"
+  },
+  "cart": {
+    "title": "سلة التسوق",
+    "empty": "سلتك فارغة",
+    "emptyText": "يبدو أنك لم تضف أي شيء بعد.",
+    "continueShopping": "متابعة التسوق",
+    "subtotal": "المجموع الفرعي",
+    "checkout": "إتمام الشراء بأمان",
+    "redirecting": "جارٍ التحويل…",
+    "taxNote": "الشحن والضرائب تُحسب عند إتمام الشراء.",
+    "freeShippingAway": "تبقّى {amount} للحصول على شحن مجاني!",
+    "freeShippingUnlocked": "لقد حصلت على شحن مجاني! 🎉",
+    "remove": "إزالة",
+    "increase": "زيادة الكمية",
+    "decrease": "تقليل الكمية",
+    "error": "تعذّر تحديث السلة. حاول مرة أخرى."
+  },
+  "footer": {
+    "shopByDevice": "تسوّق حسب الجهاز",
+    "support": "الدعم",
+    "about": "عن فيكسو ستور",
+    "supportLinks": [
+      { "label": "اتصل بنا", "href": "/pages/contact" },
+      { "label": "الشحن والتوصيل", "href": "/pages/shipping" },
+      { "label": "الإرجاع والاستبدال", "href": "/pages/returns" },
+      { "label": "الأسئلة الشائعة", "href": "/pages/faq" },
+      { "label": "تتبع طلبك", "href": "/pages/track-order" }
+    ],
+    "aboutLinks": [
+      { "label": "قصتنا", "href": "/pages/about" },
+      { "label": "الضمان", "href": "/pages/warranty" },
+      { "label": "آراء العملاء", "href": "/pages/reviews" },
+      { "label": "سياسة الخصوصية", "href": "/pages/privacy-policy" },
+      { "label": "شروط الخدمة", "href": "/pages/terms" }
+    ],
+    "tagline": "إكسسوارات فاخرة لأجهزة iPhone وSamsung وPixel والساعات الذكية.",
+    "newsletterTitle": "انضم إلى قائمة فيكسو",
+    "newsletterText": "احصل على خصم 10% على طلبك الأول ووصول مبكر للإصدارات الجديدة.",
+    "newsletterPlaceholder": "أدخل بريدك الإلكتروني",
+    "subscribe": "اشترك",
+    "subscribed": "شكرًا! تحقق من بريدك.",
+    "invalidEmail": "يرجى إدخال بريد إلكتروني صحيح.",
+    "follow": "تابعنا",
+    "payments": "نقبل",
+    "rights": "جميع الحقوق محفوظة."
+  },
+  "common": {
+    "loading": "جارٍ التحميل…",
+    "error": "حدث خطأ ما. حاول مرة أخرى.",
+    "retry": "حاول مرة أخرى",
+    "home": "الرئيسية",
+    "pageNotFound": "الصفحة غير موجودة",
+    "pageNotFoundText": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها."
+  }
+}

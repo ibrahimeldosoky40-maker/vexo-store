@@ -1,0 +1,229 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   Vexo Store design system
+   Palette is drawn from the logo: deep blue wordmark + teal / coral / amber mark.
+   ========================================================================== */
+
+:root {
+  --background: #ffffff;
+  --foreground: #0d1b3d;
+  --header-h: 72px;
+  --bar-h: 36px;
+}
+
+@theme inline {
+  /* Brand */
+  --color-ink: #0d1b3d;
+  --color-ink-soft: #3b4a6b;
+  --color-muted: #6b7794;
+  --color-line: #e6e9f2;
+  --color-surface: #f6f8fc;
+  --color-surface-2: #eef2f9;
+
+  --color-brand-50: #eef4ff;
+  --color-brand-100: #dce8ff;
+  --color-brand-500: #2b66c4;
+  --color-brand-600: #1f55ad;
+  --color-brand-700: #1a4690;
+  --color-brand-900: #0d1b3d;
+
+  --color-teal: #2bbfc4;
+  --color-teal-soft: #e3f7f7;
+  --color-coral: #f2735a;
+  --color-coral-soft: #fdebe6;
+  --color-amber: #fbb034;
+  --color-amber-soft: #fff4de;
+
+  --color-sale: #e11d48;
+  --color-sale-soft: #ffe4ea;
+  --color-success: #12a150;
+
+  --font-sans: var(--font-inter), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: var(--font-outfit), var(--font-inter), system-ui, sans-serif;
+
+  --shadow-soft: 0 1px 2px rgb(13 27 61 / 0.04), 0 8px 24px -8px rgb(13 27 61 / 0.12);
+  --shadow-lift: 0 2px 4px rgb(13 27 61 / 0.05), 0 24px 48px -16px rgb(13 27 61 / 0.22);
+  --shadow-pop: 0 24px 64px -12px rgb(13 27 61 / 0.35);
+
+  --animate-fade-up: fade-up 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  --animate-fade-in: fade-in 0.25s ease-out both;
+  --animate-pop-in: pop-in 0.22s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-shimmer: shimmer 1.6s linear infinite;
+  --animate-marquee: marquee 28s linear infinite;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes pop-in {
+  from { opacity: 0; transform: translateY(-6px) scale(0.985); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes shimmer {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Arabic typography */
+:lang(ar) body,
+html:lang(ar) {
+  font-family: var(--font-arabic), var(--font-sans);
+}
+:lang(ar) .font-display {
+  font-family: var(--font-arabic), var(--font-display);
+  letter-spacing: 0;
+}
+
+::selection {
+  background: var(--color-brand-100);
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand-500);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* --------------------------------------------------------------------------
+   Reusable component classes
+   -------------------------------------------------------------------------- */
+@layer components {
+  .container-x {
+    width: 100%;
+    max-width: 1360px;
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+  @media (min-width: 640px) { .container-x { padding-inline: 1.5rem; } }
+  @media (min-width: 1024px) { .container-x { padding-inline: 2rem; } }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1;
+    padding: 0.95rem 1.75rem;
+    transition: transform 0.2s ease, box-shadow 0.25s ease, background-color 0.2s ease, color 0.2s ease;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .btn:active:not(:disabled) { transform: scale(0.97); }
+  .btn:disabled { opacity: 0.55; cursor: not-allowed; }
+
+  .btn-primary {
+    background: linear-gradient(135deg, var(--color-brand-600), var(--color-brand-700));
+    color: #fff;
+    box-shadow: 0 10px 24px -10px rgb(31 85 173 / 0.7);
+  }
+  .btn-primary:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 30px -10px rgb(31 85 173 / 0.8);
+  }
+
+  .btn-dark { background: var(--color-ink); color: #fff; }
+  .btn-dark:hover:not(:disabled) { background: #14275a; transform: translateY(-2px); }
+
+  .btn-ghost {
+    background: #fff;
+    color: var(--color-ink);
+    box-shadow: inset 0 0 0 1.5px var(--color-line);
+  }
+  .btn-ghost:hover:not(:disabled) { box-shadow: inset 0 0 0 1.5px var(--color-ink); }
+
+  .icon-btn {
+    position: relative;
+    display: inline-flex;
+    height: 2.625rem;
+    width: 2.625rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    color: var(--color-ink);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  .icon-btn:hover { background: var(--color-surface-2); }
+  .icon-btn:active { transform: scale(0.92); }
+
+  .skeleton {
+    border-radius: 0.75rem;
+    background: linear-gradient(100deg, #eef1f8 30%, #f8f9fd 50%, #eef1f8 70%);
+    background-size: 200% 100%;
+    animation: var(--animate-shimmer);
+  }
+
+  .gradient-text {
+    background: linear-gradient(110deg, var(--color-teal), var(--color-brand-500) 45%, var(--color-coral) 85%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .glass {
+    background: rgb(255 255 255 / 0.92);
+    backdrop-filter: saturate(180%) blur(18px);
+    -webkit-backdrop-filter: saturate(180%) blur(18px);
+  }
+
+  .no-scrollbar { scrollbar-width: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+}
+
+/* Scroll-reveal: add `data-reveal` and let <Reveal/> flip `data-in` */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s cubic-bezier(0.2, 0.7, 0.2, 1), transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+[data-reveal][data-in="true"] { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  [data-reveal] { opacity: 1; transform: none; }
+}
+
+/* Prevent background scroll while an overlay is open */
+body[data-scroll-locked="true"] { overflow: hidden; }
+
+/* Rich-text from Shopify product descriptions */
+.prose-vexo { color: var(--color-ink-soft); font-size: 0.9375rem; line-height: 1.75; }
+.prose-vexo > * + * { margin-top: 0.9em; }
+.prose-vexo h2, .prose-vexo h3, .prose-vexo h4 { color: var(--color-ink); font-weight: 700; font-family: var(--font-display); }
+.prose-vexo ul { list-style: disc; padding-inline-start: 1.25rem; }
+.prose-vexo ol { list-style: decimal; padding-inline-start: 1.25rem; }
+.prose-vexo li + li { margin-top: 0.35em; }
+.prose-vexo a { color: var(--color-brand-600); text-decoration: underline; text-underline-offset: 3px; }
+.prose-vexo strong { color: var(--color-ink); }
+.prose-vexo img { border-radius: 1rem; max-width: 100%; height: auto; }
